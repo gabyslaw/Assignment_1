@@ -22,17 +22,17 @@ namespace ClassAssignment.Constructor
 
         public void Subtract()
         {
-            Console.WriteLine($"The subtraction of {firstValue} and {secondValue} is, {firstValue + secondValue} ");
+            Console.WriteLine($"The subtraction of {firstValue} and {secondValue} is, {firstValue - secondValue} ");
         }
 
         public void Multiply()
         {
-            Console.WriteLine($"The multiplication of {firstValue} and {secondValue} is, {firstValue + secondValue} ");
+            Console.WriteLine($"The multiplication of {firstValue} and {secondValue} is, {firstValue * secondValue} ");
         }
 
         public void Divide()
         {
-            Console.WriteLine($"The division of {firstValue} and {secondValue} is, {firstValue + secondValue} ");
+            Console.WriteLine($"The division of {firstValue} and {secondValue} is, {firstValue / secondValue} ");
         }
 
     }
